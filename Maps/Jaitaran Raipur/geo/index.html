@@ -77,22 +77,22 @@ html, body, #map {
   var map = L.map('map', mapOptions);
   var esriLayer = new L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}',{minZoom: 10, maxNativeZoom: 20});
   var geojsonLayer = L.geoJson(ranjeet).addTo(map);
-  var rasterLayer_1 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+  var rasterLayer_1 = L.tileLayer.wms("https://geoserver.bharatrohan.in/geoserver/wms", {
     layers: '	Jaitaran:Raipur__S1',
     format: 'image/png',
     transparent: true,  
   });
-  var rasterLayer_2 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+  var rasterLayer_2 = L.tileLayer.wms("https://geoserver.bharatrohan.in/geoserver/wms", {
     layers: '	Jaitaran:Raipur__S2',
     format: 'image/png',
     transparent: true,
   });
-  var rasterLayer_3 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+  var rasterLayer_3 = L.tileLayer.wms("https://geoserver.bharatrohan.in/geoserver/wms", {
     layers: '	Jaitaran:Raipur__S3',
     format: 'image/png',
     transparent: true,
   });
-  var rasterLayer_4 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+  var rasterLayer_4 = L.tileLayer.wms("https://geoserver.bharatrohan.in/geoserver/wms", {
     layers: '	Jaitaran:Raipur__S4',
     format: 'image/png',
     transparent: true,
