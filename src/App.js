@@ -6,6 +6,7 @@ import Layout from './Layout';
 import { NotificationContainer } from 'react-notifications';
 import States from './Pages/States/States';
 import District from './Pages/District/District';
+import Barabanki from './Pages/Barabanki/Barabanki';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route element = {<Login/>} path="/login" />
           <Route element= {<States/>} path="/farmers" />
           <Route element={<District />} path="/district/:id" />
+          <Route element={<Barabanki/>} path='/barabanki'/>
         </Routes>
         <NotificationContainer/>
       </HashRouter>

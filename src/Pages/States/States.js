@@ -16,7 +16,7 @@ const States = () => {
                     <img src="/rajastan.png" class="card-img-top" alt="..." style={{width: '13rem', height: '7rem', borderRadius : '18px 18px 0px 0px'}}/>
                         <div class="card-body text-center">
                             <h3 class="card-title mb-2">Barabanki</h3>
-                            <a href="/#/farmers" class="btn btn-rounded btn-bluish-green">Map</a>
+                            <a href="/#/barabanki" class="btn btn-rounded btn-bluish-green">Map</a>
                         </div>
                 </div>
                 <div class="card" style={{width: '13rem', height: '14rem', borderRadius : '18px'}}>
