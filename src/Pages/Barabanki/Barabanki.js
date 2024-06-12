@@ -140,6 +140,7 @@ const Barabanki = () => {
         pageIndex: 0,
         pageSize: 5, //customize the default page size
     });
+    
     const columns = [
     {
         accessorKey: 'farmername',
@@ -173,7 +174,11 @@ const Barabanki = () => {
               muiPaginationProps = {{
                   showFirstButton: true,
                   showLastButton: true,
+                  paging:true,
+                    pageSize:6,
+                  
               }}
+              enableRowNumbers
           />
         </div>
     </div>

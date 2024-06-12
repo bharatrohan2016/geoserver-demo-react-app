@@ -11,10 +11,7 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"/>
-  <script type="text/javascript" src="dist/leaflet-control-credits.js"></script>
-  <link rel="stylesheet" href="dist/leaflet-control-credits.css" />
-
-  <script src="data/geojson/ranjeet_verma.geojson"></script>
+    
 </head>
 
 <style>
@@ -76,7 +73,7 @@ html, body, #map {
   // Defining the layers
   var map = L.map('map', mapOptions);
   var esriLayer = new L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}',{minZoom: 10, maxNativeZoom: 20});
-  var geojsonLayer = L.geoJson(ranjeet).addTo(map);
+   
   var rasterLayer_1 = L.tileLayer.wms("https://geo.bharatrohan.in/geoserver/wms", {
     layers: 'Jodhpur:Bilara__S1',
     format: 'image/png',
@@ -268,14 +265,7 @@ html, body, #map {
   }
   
   //
-  var credits = L.controlCredits({
-    imageurl: './br.svg',
-    imagealt: 'BharatRohan',
-    tooltip: 'Made by BharatRohan',
-    width: '45px',
-    height: '45px',
-    expandcontent: 'Prescription Maps<br/>by <a href="https://www.bharatrohan.in/" target="_blank">BharatRohan</a>',
-  }).addTo(map);
+      
 
 </script>
 </html>
