@@ -7,132 +7,132 @@ const Barabanki = () => {
       {
         "farmername": "akilesh kumar",
         "fathername": "nanha",
-        "maps" : ""
+        "maps" : "geo/barabanki/akilesh-kumar.html"
       },
       {
         "farmername": "amar singh",
         "fathername": "chandra shekhar",
-        "maps" : ""
+        "maps" : "geo/barabanki/amar-singh.html"
       },
       {
         "farmername": "ameerachandra",
         "fathername": "ramsagar",
-        "maps" : ""
+        "maps" : "geo/barabanki/ameerachandra.html"
       },
       {
         "farmername": "anuj kumar",
         "fathername": "nanha",
-        "maps" : ""
+        "maps" : "geo/barabanki/anuj-kumar.html"
       },
       {
         "farmername": "arpit kumar",
         "fathername": "nanha",
-        "maps" : ""
+        "maps" : "geo/barabanki/arpit-kumar.html"
       },
       {
         "farmername": "ashok kumar",
         "fathername": "vimalachand",
-        "maps" : ""
+        "maps" : "geo/barabanki/ashok-lumar.html"
       },
       {
         "farmername": "girja sankar",
         "fathername": "parashuram",
-        "maps" : ""
+        "maps" : "geo/barabanki/girja-sankar.html"
       },
       {
         "farmername": "gulshan kumar",
         "fathername": "patan",
-        "maps" : ""
+        "maps" : "geo/barabanki/gulshan-kumar.html"
       },
       {
         "farmername": "indraprakash",
         "fathername": "rakesh kumar",
-        "maps" : ""
+        "maps" : "geo/barabanki/indraprakash-kumar.html"
       },
       {
         "farmername": "maikulal yadav",
         "fathername": "hardwari",
-        "maps" : ""
+        "maps" : "geo/barabanki/maikulal-yadav.html"
       },
       {
         "farmername": "manoj rawat",
         "fathername": "fakire",
-        "maps" : ""
+        "maps" : "geo/barabanki/manoj-rawat.html"
       },
       {
         "farmername": "pratap singh",
         "fathername": "shri ram",
-        "maps" : ""
+        "maps" : "geo/barabanki/pratap-singh.html"
       },
       {
         "farmername": "prem chandra",
         "fathername": "ram tirath",
-        "maps" : ""
+        "maps" : "geo/barabanki/prem-chandra.html"
       },
       {
         "farmername": "rakesh kumar",
         "fathername": "ram sagar",
-        "maps" : ""
+        "maps" : "geo/barabanki/ram-bahadur.html"
       },
       {
         "farmername": "ram bahadur",
         "fathername": "harnaam singh",
-        "maps" : ""
+        "maps" : "geo/barabanki/ram-bahadur.html"
       },
       {
         "farmername": "ram naresh kumar",
         "fathername": "raghavram",
-        "maps" : ""
+        "maps" : "geo/barabanki/ram-naresh-kumar.html"
       },
       {
         "farmername": "ram prakash yadav",
         "fathername": "jagdish prasad",
-        "maps" : ""
+        "maps" : "geo/barabanki/ram-prakash.html"
       },
       {
         "farmername": "ramavati",
         "fathername": "nanha",
-        "maps" : ""
+        "maps" : "geo/barabanki/ramavati-nanha.html"
       },
       {
         "farmername": "ranjeet kumar yadav",
         "fathername": "chandra shekhar",
-        "maps" : ""
+        "maps" : "geo/barabanki/ranjeet-kumar.html"
       },
       {
         "farmername": "sandip kumar",
         "fathername": "premchandra",
-        "maps" : ""
+        "maps" : "geo/barabanki/sandip-kumar.html"
       },
       {
         "farmername": "sanjay kumar",
         "fathername": "shri ram",
-        "maps" : ""
+        "maps" : "geo/barabanki/sanjay-kumar.html"
       },
       {
         "farmername": "satish chandra",
         "fathername": "awadh bihari",
-        "maps" : ""
+        "maps" : "geo/barabanki/satish-chandra.html"
       },
       {
         "farmername": "satynaam singh",
         "fathername": "ram singh",
-        "maps" : ""
+        "maps" : "geo/barabanki/satynaam-singh.html"
       },
       {
         "farmername": "uma shankar",
         "fathername": "shri ram",
-        "maps" : ""
+        "maps" : "geo/barabanki/uma-shankar.html"
       },
       {
         "farmername": "vikram singh",
         "fathername": "ram khelawan",
-        "maps" : ""
+        "maps" : "geo/barabanki/vikram-singh.html"
       },
       {
         "farmername": "vindeshwari",
         "fathername": "ram shankar",
-        "maps" : ""
+        "maps" : "geo/barabanki/videshwari-ram.html"
       }
     ])
     //using state if you want to manage the pagination state yourself
