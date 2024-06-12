@@ -83,16 +83,6 @@ const data = [
       "maps" : ""
     },
     {
-      "farmername": "ram naresh verma",
-      "fathername": "ram tirath",
-      "maps" : ""
-    },
-    {
-      "farmername": "ram prakash yadav",
-      "fathername": "jagdish prasad",
-      "maps" : ""
-    },
-    {
       "farmername": "ram prakash yadav",
       "fathername": "jagdish prasad",
       "maps" : ""
@@ -105,11 +95,6 @@ const data = [
     {
       "farmername": "ranjeet kumar yadav",
       "fathername": "chandra shekhar",
-      "maps" : ""
-    },
-    {
-      "farmername": "sandip kumar",
-      "fathername": "premchandra",
       "maps" : ""
     },
     {
@@ -140,11 +125,6 @@ const data = [
     {
       "farmername": "vikram singh",
       "fathername": "ram khelawan",
-      "maps" : ""
-    },
-    {
-      "farmername": "vindeshwari",
-      "fathername": "ram shankar",
       "maps" : ""
     },
     {
