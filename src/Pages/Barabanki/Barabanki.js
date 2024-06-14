@@ -132,7 +132,7 @@ const Barabanki = () => {
       {
         "farmername": "vindeshwari",
         "fathername": "ram shankar",
-        "maps" : "geo/barabanki/videshwari-ram.html"
+        "maps" : "geo/barabanki/vindeshwari-ram.html"
       }
     ])
     //using state if you want to manage the pagination state yourself
