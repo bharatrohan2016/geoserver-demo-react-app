@@ -14,7 +14,7 @@ const District = () => {
               {id == 1 && <>
                 <div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center', height : '20rem'}}>
               <div class="card" style={{width: '12rem', height: '14rem', borderRadius : '18px'}}>
-                    <img src="/rajastan.png" class="card-img-top" alt="..." style={{width: '12rem', height: '7rem', borderRadius : '18px 18px 0px 0px'}}/>
+                    <img src="/leaves.jpg" class="card-img-top" alt="..." style={{width: '12rem', height: '7rem', borderRadius : '18px 18px 0px 0px'}}/>
                         <div class="card-body text-center text-center">
                             <h5 class="card-title mb-2">Badnor</h5>
                             <a href="/geo/beawar-badnor.html" class="btn btn-rounded btn-bluish-green">Map</a>
