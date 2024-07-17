@@ -85,6 +85,11 @@ const Barabanki = () => {
         "maps" : "geo/barabanki/ram-naresh-kumar.html"
       },
       {
+        "farmername": "ram naresh",
+        "fathername": "ram",
+        "maps" : "geo/barabanki/ram-naresh.html"
+      },
+      {
         "farmername": "ram prakash yadav",
         "fathername": "jagdish prasad",
         "maps" : "geo/barabanki/ram-prakash.html"
