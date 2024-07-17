@@ -104,9 +104,9 @@ html, body, #map {
   };
   
   var overlayMaps = {
-    "Survey 1": rasterLayer_1,
+    "Survey 1": rasterLayer_3,
     "Survey 2": rasterLayer_2,
-    "Survey 3": rasterLayer_3,
+    "Survey 3": rasterLayer_1,
     "Survey 4": rasterLayer_4,
   };
 
@@ -189,16 +189,16 @@ html, body, #map {
   function handleLegends(value) {
         switch(value) {
           case "Survey 1":
-          addLegend(['Healthy', 'Unhealthy']);
+          addLegend(['Healthy', 'Unhealthy', 'Bare Soil']);
             break;
           case "Survey 2":
-          addLegend(['Healthy', 'Unhealthy']);
+          addLegend(['Healthy', 'Aphids', 'Bare Soil']);
             break;
           case "Survey 3":
-          addLegend(['Healthy', 'Unhealthy']);
+          addLegend(['Healthy', 'Unhealthy', 'Bare Soil']);
             break;
           case "Survey 4":
-          addLegend(['Healthy', 'Unhealthy']);
+          addLegend(['Healthy', 'Unhealthy', 'Bare Soil']);
             break;
         }
   }
@@ -251,11 +251,11 @@ html, body, #map {
           `<i style="background:#60b856"></i>`,  
           `<i style="background:#a6d96a"></i>`, 
           `<i style="background:#d3ec95"></i>`,  
-          `<i style="background:#ffffc0"></i>`,  
+          `<i style="background:#ffffc0"></i> ${legendItems[1]}`,  
           `<i style="background:#fed791"></i>`, 
           `<i style="background:#fdae61"></i>`,
           `<i style="background:#ea643F"></i> `,
-          `<i style="background:#d7191c"></i> ${legendItems[1]}`
+          `<i style="background:#d7191c"></i> ${legendItems[2]}`
         ];
         div.innerHTML = labels.join('<br>');
         return div;
