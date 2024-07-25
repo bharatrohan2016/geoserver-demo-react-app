@@ -2,27 +2,26 @@ import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import Header from '../../Components/Header/Header';
 import CardLists from '../../Components/CardLists/CardLists';
+import { FranchiseList } from '../../Utils/commonFunctions';
 
 const District = () => {
   const {id} = useParams();
-  console.log(id)
-  const cities = [
-    {
-        name : 'Barmer',
-        map : '',
-        image : 'https://thumbs.dreamstime.com/b/kiradu-temples-group-ruined-hindu-located-barmer-district-rajasthan-india-223512470.jpg',
-    },
-    {
-        name : 'Jaisalmer',
-        map : '',
-        image : 'http://fantabulousholidays.com/wp-content/uploads/2020/04/jaisalmer-fort-e1586781522550.jpg'
-    }
-  ];
+  const index = FranchiseList.findIndex((item) => item.id == id);
+  const districts = FranchiseList[index].districts;
   return (
     <>
       <Header/>
       <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around', paddingTop : '80px'}}>
-        
+            <CardLists data={districts}/>
+      </div>
+    </>
+  )
+}
+
+export default District;
+
+
+{/*         
             
               {id == 1 && <>
                 <div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center', height : '20rem'}}>
@@ -116,12 +115,4 @@ const District = () => {
                           </div>
                   </div>
                 </div>
-           </>}
-
-           { id == 4 && <CardLists data={cities}/> }
-        </div>
-    </>
-  )
-}
-
-export default District
+           </>} */}

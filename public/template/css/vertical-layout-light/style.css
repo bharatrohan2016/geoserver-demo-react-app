@@ -26283,7 +26283,7 @@ input[type='text']{
   box-shadow: none !important;
 }
 
-.three h1 {
+.three h2 {
   font-size: 28px;
   font-weight: 500;
   letter-spacing: 0;
@@ -26291,22 +26291,22 @@ input[type='text']{
   padding-bottom: 15px;
   position: relative;
 }
-.three h1:before {
+.three h2:before {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 5px;
-  width: 55px;
+  height: 8px;
+  width: 85px;
   background-color: #111;
 }
-.three h1:after {
+.three h2:after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 2px;
+  bottom: 4px;
   height: 1px;
   width: 95%;
-  max-width: 255px;
-  background-color: #333;
+  max-width: 100%;
+  background-color: #111;
 }

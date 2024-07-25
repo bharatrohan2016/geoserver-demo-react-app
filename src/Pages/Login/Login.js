@@ -33,7 +33,7 @@ function Login(){
             setFormErrors(validate(values));
         },
         onSubmit : async(values) => {
-            if(values.email === 'admin@bharatrohan.in' && values.password === 'admin2016'){
+            if(values.email === 'admin@bharatrohan.in' && values.password === '123456'){
                 if(Object.keys(formErrors).length === 0){
                     navigate('/franchise');
                     NotificationManager.success("Login Completed", "Success", 2000);
