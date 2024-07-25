@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import Header from '../../Components/Header/Header';
+import CardLists from '../../Components/CardLists/CardLists';
 
 const District = () => {
   const {id} = useParams();
-
+  console.log(id)
+  const cities = [
+    {
+        name : 'Barmer',
+        map : '',
+        image : 'https://thumbs.dreamstime.com/b/kiradu-temples-group-ruined-hindu-located-barmer-district-rajasthan-india-223512470.jpg',
+    },
+    {
+        name : 'Jaisalmer',
+        map : '',
+        image : 'http://fantabulousholidays.com/wp-content/uploads/2020/04/jaisalmer-fort-e1586781522550.jpg'
+    }
+  ];
   return (
     <>
       <Header/>
@@ -104,6 +117,8 @@ const District = () => {
                   </div>
                 </div>
            </>}
+
+           { id == 4 && <CardLists data={cities}/> }
         </div>
     </>
   )

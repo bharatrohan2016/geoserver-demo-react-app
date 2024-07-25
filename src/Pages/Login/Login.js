@@ -35,7 +35,7 @@ function Login(){
         onSubmit : async(values) => {
             if(values.email === 'admin@bharatrohan.in' && values.password === 'admin2016'){
                 if(Object.keys(formErrors).length === 0){
-                    navigate('/farmers');
+                    navigate('/franchise');
                     NotificationManager.success("Login Completed", "Success", 2000);
                     console.log("Login done");
                 }else{

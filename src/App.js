@@ -7,6 +7,7 @@ import { NotificationContainer } from 'react-notifications';
 import States from './Pages/States/States';
 import District from './Pages/District/District';
 import Barabanki from './Pages/Barabanki/Barabanki';
+import Franchise from './Pages/Franchise/Franchise';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route element= {<Login/>} path="/" />
           <Route element = {<Login/>} path="/login" />
           <Route element= {<States/>} path="/farmers" />
+          <Route element={<Franchise/>} path="/franchise"/>
           <Route element={<District />} path="/district/:id" />
           <Route element={<Barabanki/>} path='/barabanki'/>
         </Routes>
