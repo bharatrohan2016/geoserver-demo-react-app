@@ -62,12 +62,28 @@
 
 export const FranchiseList = [
     {
+        id : 5,
+        name : "Triveni Enterprises",
+        districts : [
+            {
+                name : 'Barmer',
+                map : 'geo_new/index_b.html',
+                image : 'https://thumbs.dreamstime.com/b/kiradu-temples-group-ruined-hindu-located-barmer-district-rajasthan-india-223512470.jpg',
+            },
+            {
+                name : 'Jaisalmer',
+                map : 'geo_new/index_j.html',
+                image : 'http://fantabulousholidays.com/wp-content/uploads/2020/04/jaisalmer-fort-e1586781522550.jpg'
+            }
+        ]
+    },
+    {
         id : 1,
         name : "Vimal Kumar Verma",
         districts : [
             {
                 name : 'Barabanki',
-                map : '',
+                map : 'geo_new/index_b.html',
                 image : 'https://c2.staticflickr.com/2/1165/5134913990_06ecdf0f02_b.jpg'
             }
         ]
@@ -78,7 +94,7 @@ export const FranchiseList = [
         districts : [
             {
                 name : 'Barabanki',
-                map : '',
+                map : 'geo_new/index_b.html',
                 image : 'https://c2.staticflickr.com/2/1165/5134913990_06ecdf0f02_b.jpg'
             }
         ]
@@ -89,7 +105,7 @@ export const FranchiseList = [
         districts : [
             {
                 name : 'Barabanki',
-                map : '',
+                map : 'geo_new/index_b.html',
                 image : 'https://c2.staticflickr.com/2/1165/5134913990_06ecdf0f02_b.jpg'
             }
         ]
@@ -100,24 +116,8 @@ export const FranchiseList = [
         districts : [
             {
                 name : 'Barabanki',
-                map : '',
+                map : 'geo_new/index_b.html',
                 image : 'https://c2.staticflickr.com/2/1165/5134913990_06ecdf0f02_b.jpg'
-            }
-        ]
-    },
-    {
-        id : 5,
-        name : "Triveni Enterprises",
-        districts : [
-            {
-                name : 'Barmer',
-                map : '',
-                image : 'https://thumbs.dreamstime.com/b/kiradu-temples-group-ruined-hindu-located-barmer-district-rajasthan-india-223512470.jpg',
-            },
-            {
-                name : 'Jaisalmer',
-                map : '',
-                image : 'http://fantabulousholidays.com/wp-content/uploads/2020/04/jaisalmer-fort-e1586781522550.jpg'
             }
         ]
     },
@@ -127,7 +127,7 @@ export const FranchiseList = [
         districts : [
             {
                 name : 'Pali',
-                map : '',
+                map : 'geo_new/index_b.html',
                 image : 'https://www.trvme.com/img/destinations/pali-img2.jpg'
             }
         ]
@@ -138,7 +138,7 @@ export const FranchiseList = [
         districts : [
             {
                 name : 'Nagpur',
-                map : '',
+                map : 'geo_new/index_b.html',
                 image : 'https://i.pinimg.com/originals/e7/75/85/e77585852c459d80b4883f409a1361a5.jpg'
             }
         ]
@@ -149,7 +149,7 @@ export const FranchiseList = [
         districts : [
             {
                 name : 'Jodhpur',
-                map : '',
+                map : 'geo_new/index_b.html',
                 image : 'https://static.toiimg.com/photo/msid-86481170,width-96,height-65.cms'
             }
         ]
@@ -160,7 +160,7 @@ export const FranchiseList = [
         districts : [
             {
                 name : 'Beawar',
-                map : '',
+                map : 'geo_new/index_b.html',
                 image : 'http://fantabulousholidays.com/wp-content/uploads/2020/04/jaisalmer-fort-e1586781522550.jpg'
             }
         ]
