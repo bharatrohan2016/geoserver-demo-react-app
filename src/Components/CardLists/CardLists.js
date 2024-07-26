@@ -14,8 +14,8 @@ const CardLists = ({data}) => {
 		<div className='row mx-1 mb-5'>
 			{
 				data.map((item, index) => 
-					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 grid-margin stretch-card" key={index}>
-						<div class="card shadow-lg" style={{borderRadius : '30px'}}>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 grid-margin stretch-card" key={index}>
+						<div class="card shadow-lg card-style" style={{borderRadius : '30px', border : 'none'}}>
 							<div class="card-body p-0"><img src={item.image} alt="" class="w-100 card-img-top"/>
 								<div class="p-4">
 									<div className='d-flex justify-content-between'>

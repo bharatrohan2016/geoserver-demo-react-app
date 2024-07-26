@@ -28,7 +28,7 @@ const Franchise = () => {
 						{
 							FranchiseList.map((item, index) => 
 								<div class="col-md-4 grid-margin stretch-card" key={index}>
-									<div class="card" style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}>
+									<div class="card card-style" style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}>
 										<div class="card-body text-center">
 											<h3 class="card-title font-weight-bold">{item.name}</h3>
 											<button className='btn btn-sm text-white' data-toggle="modal" data-target="#exampleModal" onClick={() => setId(item.id)} 

@@ -26297,7 +26297,7 @@ input[type='text']{
   left: 0;
   bottom: 0;
   height: 8px;
-  width: 85px;
+  width: 105px;
   background-color: #111;
 }
 .three h2:after {
@@ -26306,7 +26306,20 @@ input[type='text']{
   left: 0;
   bottom: 4px;
   height: 1px;
-  width: 95%;
+  width: 100%;
   max-width: 100%;
   background-color: #111;
+}
+
+
+.card-style{
+  transition : transform 0.5s;
+  /* border-right: 2px solid #d18a49; */
+  border-top: 2px solid #d18a49;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.card-style:hover{
+  transform: scale(1.03);
 }
