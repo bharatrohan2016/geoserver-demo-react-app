@@ -93,29 +93,29 @@ html, body, #map {
 
   var geojsonLayer = L.geoJSON(jaisalmer, {style: myStyle}).addTo(map);
 
-  var rasterLayer_1 = L.tileLayer.wms("https://64.227.150.177:8080/geoserver/wms", {
-    layers: 'Rajasthan:rendered_ndvi',
+  var rasterLayer_1 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+    layers: 'Rajasthan:rendered_ndvi_jaisalmer',
     format: 'image/png',
     transparent: true,  
   });
 
-  var rasterLayer_2 = L.tileLayer.wms("https://64.227.150.177:8080/geoserver/wms", {
-    layers: 'Rajasthan:rendered_aphids_barmer',
+  var rasterLayer_2 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+    layers: 'Rajasthan:rendered_aphids_jaisalmer',
     format: 'image/png',
     transparent: true,
   });
 
-  var rasterLayer_3 = L.tileLayer.wms("https://64.227.150.177:8080/geoserver/wms", {
-    layers: 'Rajasthan:rendered_aphids_barmer',
+  var rasterLayer_3 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+    layers: 'Rajasthan:rendered_aphids_jaisalmer',
     format: 'image/png',
     transparent: true,
   });
 
-  var rasterLayer_4 = L.tileLayer.wms("https://64.227.150.177:8080/geoserver/wms", {
-    layers: 'Rajasthan:rendered_aphids_barmer',
+  var rasterLayer_4 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+    layers: 'Rajasthan:rendered_aphids_jaisalmer',
     format: 'image/png',
     transparent: true,
-  });
+  })
 
   var Layers = L.layerGroup([baseLayer]);
   
