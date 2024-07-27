@@ -94,13 +94,25 @@ html, body, #map {
   var geojsonLayer = L.geoJSON(jaisalmer, {style: myStyle}).addTo(map);
 
   var rasterLayer_1 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
-    layers: 'Rajasthan:rendered_ndvi_jaisalmer',
+    layers: 'Rajasthan:rendered_ndvi',
     format: 'image/png',
     transparent: true,  
   });
 
   var rasterLayer_2 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
-    layers: 'Rajasthan:rendered_aphids_jaisalmer',
+    layers: 'Rajasthan:rendered_aphids_barmer',
+    format: 'image/png',
+    transparent: true,
+  });
+
+  var rasterLayer_3 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+    layers: 'Rajasthan:rendered_aphids_barmer',
+    format: 'image/png',
+    transparent: true,
+  });
+
+  var rasterLayer_4 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+    layers: 'Rajasthan:rendered_aphids_barmer',
     format: 'image/png',
     transparent: true,
   });
@@ -110,6 +122,8 @@ html, body, #map {
   var overlayMaps = {
     "Survey 1": rasterLayer_1,
     "Survey 2": rasterLayer_2,
+    "Survey 3": rasterLayer_3,
+    "Survey 4": rasterLayer_4
   };
 
   var customControl = L.Control.extend({
@@ -176,6 +190,12 @@ html, body, #map {
             break;
           case "Survey 2":
           addLegend(['<b>Healthy</b>', '<b>Aphids</b>', '<b>Bare Soil & Residue</b>']);
+            break;
+          case "Survey 3":
+          addLegend(['<b>Healthy</b>', '<b>Rust</b>', '<b>Bare Soil & Residue</b>']);
+            break;
+          case "Survey 4":
+          addLegend(['<b>Healthy</b>', '<b>Blight</b>', '<b>Bare Soil & Residue</b>']);
             break;
         }
   }
