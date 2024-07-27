@@ -93,25 +93,25 @@ html, body, #map {
 
   var geojsonLayer = L.geoJSON(barmer, {style: myStyle}).addTo(map);
 
-  var rasterLayer_1 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+  var rasterLayer_1 = L.tileLayer.wms("https://geo.bharatrohan.in/geoserver/wms", {
     layers: 'Rajasthan:rendered_ndvi',
     format: 'image/png',
     transparent: true,  
   });
 
-  var rasterLayer_2 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+  var rasterLayer_2 = L.tileLayer.wms("https://geo.bharatrohan.in/geoserver/wms", {
     layers: 'Rajasthan:rendered_aphids_barmer',
     format: 'image/png',
     transparent: true,
   });
 
-  var rasterLayer_3 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+  var rasterLayer_3 = L.tileLayer.wms("https://geo.bharatrohan.in/geoserver/wms", {
     layers: 'Rajasthan:rendered_aphids_barmer',
     format: 'image/png',
     transparent: true,
   });
 
-  var rasterLayer_4 = L.tileLayer.wms("http://64.227.150.177:8080/geoserver/wms", {
+  var rasterLayer_4 = L.tileLayer.wms("https://geo.bharatrohan.in/geoserver/wms", {
     layers: 'Rajasthan:rendered_aphids_barmer',
     format: 'image/png',
     transparent: true,
