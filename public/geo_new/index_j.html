@@ -48,6 +48,10 @@ html, body, #map {
   color: #777; 
 }
 
+.custom-popup .leaflet-popup-content-wrapper {
+  width: 300px;
+}
+
 .legend { 
   text-align: left; 
   line-height: 18px; 
@@ -79,8 +83,12 @@ html, body, #map {
   for (var i = 0; i < centroidjaisalmer.length; i++) {
       var a = centroidjaisalmer[i];
       var title = a[2];
-      var marker = L.marker(new L.LatLng(a[0], a[1]), { title: title });
-      marker.bindPopup(title);
+      var marker = L.marker(new L.LatLng(a[0], a[1]), 
+      <!-- { title: title } -->
+      );
+      marker.bindPopup(title,  {
+        className: 'custom-popup'
+      });
       markers.addLayer(marker);
   }
   map.addLayer(markers);

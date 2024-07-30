@@ -14,7 +14,7 @@ function App() {
       <HashRouter>
         <Routes>
           <Route element= {<Login/>} path="/" />
-          <Route element = {<Login/>} path="/login" />
+          {/* <Route element = {<Login/>} path="/login" /> */}
           <Route element= {<States/>} path="/farmers" />
           <Route element={<Franchise/>} path="/franchise"/>
           <Route element={<District />} path="/district/:id" />
