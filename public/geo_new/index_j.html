@@ -79,9 +79,10 @@ html, body, #map {
   var map = L.map('map', {center: latlng, zoom: 13, attributionControl: false, layers: [baseLayer]});
 
   var markers = L.markerClusterGroup();
-    
-  for (var i = 0; i < centroidjaisalmer.length; i++) {
-      var a = centroidjaisalmer[i];
+
+  function surveyTitle (survey) {
+    for (var i = 0; i < survey.length; i++) {
+      var a = survey[i];
       var title = a[2];
       var marker = L.marker(new L.LatLng(a[0], a[1]), 
       <!-- { title: title } -->
@@ -90,8 +91,9 @@ html, body, #map {
         className: 'custom-popup'
       });
       markers.addLayer(marker);
+    }
+    map.addLayer(markers);
   }
-  map.addLayer(markers);
 
   var myStyle = {
     "color": "#E4080A",
@@ -192,18 +194,23 @@ html, body, #map {
   map.addLayer(baseLayer);
 
   function handleLegends(value) {
+    markers.clearLayers();
         switch(value) {
           case "Survey 1":
           addLegend(['<b>Healthy</b>', '<b>Unhealthy</b>', '<b>Bare Soil & Residue</b>']);
+          surveyTitle(surveyone)
             break;
           case "Survey 2":
           addLegend(['<b>Healthy</b>', '<b>Aphids</b>', '<b>Bare Soil & Residue</b>']);
+          surveyTitle(surveytwo)
             break;
           case "Survey 3":
           addLegend(['<b>Healthy</b>', '<b>Rust</b>', '<b>Bare Soil & Residue</b>']);
+          surveyTitle(surveythree)
             break;
           case "Survey 4":
           addLegend(['<b>Healthy</b>', '<b>Blight</b>', '<b>Bare Soil & Residue</b>']);
+          surveyTitle(surveyfour)
             break;
         }
   }
