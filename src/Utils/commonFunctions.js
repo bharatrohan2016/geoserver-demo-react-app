@@ -63,67 +63,29 @@
 export const FranchiseList = [
     {
         id : 5,
-        name : "Triveni Enterprises",
+        name : "Trivan Enterprises",
         districts : [
             {
                 name : 'Barmer',
                 map : 'geo_new/index_b.html',
                 image : 'https://thumbs.dreamstime.com/b/kiradu-temples-group-ruined-hindu-located-barmer-district-rajasthan-india-223512470.jpg',
             },
-            {
-                name : 'Jaisalmer',
-                map : 'geo_new/index_j.html',
-                image : 'http://fantabulousholidays.com/wp-content/uploads/2020/04/jaisalmer-fort-e1586781522550.jpg'
-            }
         ]
     },
-    {
-        id : 1,
-        name : "Vimal Kumar Verma",
-        districts : [
-            {
-                name : 'Barabanki',
-                map : 'geo_new/index_b.html',
-                image : 'https://c2.staticflickr.com/2/1165/5134913990_06ecdf0f02_b.jpg'
-            }
-        ]
-    },
+    // {
+    //     id : 1,
+    //     name : "Vimal Kumar Verma",
+    //     districts : [
+    //         {
+    //             name : 'Barabanki',
+    //             map : 'geo_new/index_b.html',
+    //             image : 'https://c2.staticflickr.com/2/1165/5134913990_06ecdf0f02_b.jpg'
+    //         }
+    //     ]
+    // },
     {
         id : 2,
-        name : "Brijesh Kumar",
-        districts : [
-            {
-                name : 'Barabanki',
-                map : 'geo_new/index_b.html',
-                image : 'https://c2.staticflickr.com/2/1165/5134913990_06ecdf0f02_b.jpg'
-            }
-        ]
-    },
-    {
-        id : 3,
-        name : "Gajraj Verma",
-        districts : [
-            {
-                name : 'Barabanki',
-                map : 'geo_new/index_b.html',
-                image : 'https://c2.staticflickr.com/2/1165/5134913990_06ecdf0f02_b.jpg'
-            }
-        ]
-    },
-    {
-        id : 4,
-        name : "Suraj Kumar",
-        districts : [
-            {
-                name : 'Barabanki',
-                map : 'geo_new/index_b.html',
-                image : 'https://c2.staticflickr.com/2/1165/5134913990_06ecdf0f02_b.jpg'
-            }
-        ]
-    },
-    {
-        id : 6,
-        name : "Krish Iratna Agro Solutions",
+        name : "Krish Vigyaan",
         districts : [
             {
                 name : 'Pali',
@@ -132,37 +94,70 @@ export const FranchiseList = [
             }
         ]
     },
+    // {
+    //     id : 3,
+    //     name : "Gajraj Verma",
+    //     districts : [
+    //         {
+    //             name : 'Barabanki',
+    //             map : 'geo_new/index_b.html',
+    //             image : 'https://c2.staticflickr.com/2/1165/5134913990_06ecdf0f02_b.jpg'
+    //         }
+    //     ]
+    // },
+    // {
+    //     id : 4,
+    //     name : "Suraj Kumar",
+    //     districts : [
+    //         {
+    //             name : 'Barabanki',
+    //             map : 'geo_new/index_b.html',
+    //             image : 'https://c2.staticflickr.com/2/1165/5134913990_06ecdf0f02_b.jpg'
+    //         }
+    //     ]
+    // },
     {
-        id : 7,
-        name : "BharatRohan Innovation Foundation",
+        id : 6,
+        name : "Krishna Agri Solutions",
         districts : [
             {
-                name : 'Nagpur',
-                map : 'geo_new/index_b.html',
-                image : 'https://i.pinimg.com/originals/e7/75/85/e77585852c459d80b4883f409a1361a5.jpg'
-            }
-        ]
-    },
-    {
-        id : 8,
-        name : "Tushar Sanjay Pawar",
-        districts : [
-            {
-                name : 'Jodhpur',
-                map : 'geo_new/index_b.html',
-                image : 'https://static.toiimg.com/photo/msid-86481170,width-96,height-65.cms'
-            }
-        ]
-    },
-    {
-        id : 9,
-        name : "Neelima Pawar",
-        districts : [
-            {
-                name : 'Beawar',
-                map : 'geo_new/index_b.html',
+                name : 'Jaisalmer',
+                map : 'geo_new/index_j.html',
                 image : 'http://fantabulousholidays.com/wp-content/uploads/2020/04/jaisalmer-fort-e1586781522550.jpg'
             }
         ]
     },
+    // {
+    //     id : 7,
+    //     name : "BharatRohan Innovation Foundation",
+    //     districts : [
+    //         {
+    //             name : 'Nagpur',
+    //             map : 'geo_new/index_b.html',
+    //             image : 'https://i.pinimg.com/originals/e7/75/85/e77585852c459d80b4883f409a1361a5.jpg'
+    //         }
+    //     ]
+    // },
+    // {
+    //     id : 8,
+    //     name : "Tushar Sanjay Pawar",
+    //     districts : [
+    //         {
+    //             name : 'Jodhpur',
+    //             map : 'geo_new/index_b.html',
+    //             image : 'https://static.toiimg.com/photo/msid-86481170,width-96,height-65.cms'
+    //         }
+    //     ]
+    // },
+    // {
+    //     id : 9,
+    //     name : "Neelima Pawar",
+    //     districts : [
+    //         {
+    //             name : 'Beawar',
+    //             map : 'geo_new/index_b.html',
+    //             image : 'http://fantabulousholidays.com/wp-content/uploads/2020/04/jaisalmer-fort-e1586781522550.jpg'
+    //         }
+    //     ]
+    // },
 ]
